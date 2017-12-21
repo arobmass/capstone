@@ -16,10 +16,9 @@ header .gray{
   color: gray;
 }
 
-.logo-name{
+.logo{
   display: flex;
   align-items: center;
-  height: 32px;
 }
 
 .container{
@@ -38,4 +37,29 @@ header h1{
 header a{
     text-decoration: none;
     color: darkgray;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+
+.container{
+  max-width: 100%;
+  margin: auto 0;
+}
+
+.banner{
+  margin: 24px 32px;
+  width: 60%;
+  text-align: center;
+}
+
+.banner img{
+width: 60%;
+}
+
+.banner h1{
+  font-size: 3rem;
 }
